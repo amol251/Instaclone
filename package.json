@@ -1,0 +1,50 @@
+{
+  "name": "InstagramClone",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "class-autobind": "^0.1.4",
+    "expo": "^30.0.1",
+    "firebase": "^5.0.4",
+    "jsc-android": "224109.x.x",
+    "mobx": "^5.1.2",
+    "mobx-react": "^5.2.8",
+    "react": "16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-camera": "^1.3.0",
+    "react-native-camera-roll-picker": "^1.2.3",
+    "react-native-elements": "^0.19.1",
+    "react-native-flex-image": "^1.2.0",
+    "react-native-image-progress": "^1.1.1",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-paper": "^2.1.3",
+    "react-native-parallax-scroll-view": "^0.21.3",
+    "react-native-progress": "^3.5.0",
+    "react-native-router-flux": "^4.0.5",
+    "react-native-swipe-navigation": "^1.0.0-beta",
+    "react-native-tab-view": "^1.2.0",
+    "react-native-vector-icons": "^6.0.2",
+    "react-navigation": "^2.18.0",
+    "react-navigation-material-bottom-tabs": "^0.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "babel-jest": "22.4.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
